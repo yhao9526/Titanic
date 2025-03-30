@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Survived   R-squared:                       0.399
+Model:                            OLS   Adj. R-squared:                  0.394
+Method:                 Least Squares   F-statistic:                     97.61
+Date:                Sun, 30 Mar 2025   Prob (F-statistic):           4.15e-94
+Time:                        07:06:44   Log-Likelihood:                -395.50
+No. Observations:                 891   AIC:                             805.0
+Df Residuals:                     884   BIC:                             838.5
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.2544      0.070     17.837      0.000       1.116       1.392
+Pclass        -0.1359      0.019     -7.088      0.000      -0.174      -0.098
+Sex           -0.4970      0.027    -18.112      0.000      -0.551      -0.443
+SibSp         -0.0388      0.012     -3.281      0.001      -0.062      -0.016
+Cabin          0.0269      0.010      2.762      0.006       0.008       0.046
+Embarked      -0.0461      0.016     -2.834      0.005      -0.078      -0.014
+Ageplus       -0.0422      0.009     -4.792      0.000      -0.060      -0.025
+==============================================================================
+Omnibus:                       36.931   Durbin-Watson:                   1.922
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               40.553
+Skew:                           0.518   Prob(JB):                     1.56e-09
+Kurtosis:                       3.133   Cond. No.                         27.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
